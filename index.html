@@ -1,0 +1,123 @@
+<!-- Hi Udacity Grader! I'm leaving the comments you added in here as I would like to circle bakc in the future and see what I did. The notes here are a welcome reminder for me -->
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<html lang="en">
+<head> <!-- The head tag includes important information about the page -->
+  <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+  You should include this line in the head of all of your webpages. -->
+  <title>Maddies Birthday Invite</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+</head>
+<body> <!-- The body tag is where the "flesh" of your HTML goes -->
+<!-- I split the sections into 2 so I could align the boxes better for the general information and the drill down info could be more tabular-->
+<!-- I split the bottom div into each of the sections I wanted, and made text and image div within. I coloured a outline for every div on the page while I stled it so I could track the behaviour-->
+	<div class="main">
+		<div class="banner">
+		</div> 
+		<div class="intro">
+			<div class="description">
+				<p>
+					<span>Maddie is turning 2!</span>
+				<br>
+					Can you come out to play? We’ll have food and games for the little ones, and a little area for the grownups to play too. Everyone is welcome to dress up to make things extra fun and silly; especially the grownups!
+				</p>
+				<p> 
+					Maddie loves her some <span>Peppa Pig</span>, so this cute little piggy will be featured heavily in the party decorations. If you don’t know her yet, check her out <a href="https://www.youtube.com/watch?v=FW_jgdT3ryQ">here</a>.
+				</p>
+			</div>
+			<div class="practical_info">
+				<ul>
+					<li><a href="#times">When the fun starts</a>
+					<li><a href="#adress">The Birthday Girl's House</a>
+					<li><a href="#activities">Yay! Games!</a>
+					<li><a href="#food">Birthday Food is the BEST</a>
+					<li><a href="#dress_up">Wanna dress up?</a>
+				</ul>
+			</div>
+			<div class="photo" title="Maddie on the slide">&nbsp;</div> <!--can't style an empty div. used a space instead. title used instead of alt tag-->
+		</div> <!--closing tag for Intro block -->
+		<div class="info_detail">
+			<div class="info_block" id="times">
+				<div class="info_text_1">
+					<p>
+						Kiddies are welcome from <span>10:00</span>, and will probably be beat by about 12:30. There’ll be space to play inside and outside, and a nice seat for the grownups to relax on.
+					</p>
+					<p>
+						Grownup friends <i>(which actually Mommy and Daddy’s friends also)</i> are welcome from the afternoon around <span>16:00</span>
+					</p>
+					<p>
+						Maddie has 4 pets, but only 2 of them (little stripy cats) will be home. They are friendly but they prefer they are not really into playing with kids so they’ll stay out of reach of the kiddies.
+					</p>
+				</div>
+				<div class="info_image_1">
+					<img src="https://media.giphy.com/media/13p77tfexyLtx6/giphy.gif" alt="adventure time dance">
+				</div>
+			</div>
+			<div class="info_block" id="adress">
+				<div class="info_text_2">
+					<p>
+						The party takes place at our house. Our address is Oosterhoutseweg 47, Breda. It’s best to drive in from Teteringen, as the road is closed at the railway tracks. Click <a href="https://www.google.nl/maps/place/Oosterhoutseweg+47,+4816+KC+Breda/data=!4m2!3m1!1s0x47c69f684ee651b9:0x8094c7b024e0cf87?sa=X&sqi=2&ved=0ahUKEwi_nL-dp9vTAhUQEVAKHfu3CwMQ8gEIIjAA">here</a> to find us on Google maps. 
+					</p>
+					<p>
+						You can call us on Daddy Mau’s number: 0645542356.
+					</p>
+					<p>
+						You can <a href="#rsvp">RSVP</a> at the bottom of the page. Please let us know if you any questions, or requests (or if your little guy has an allergy, for example), please let us know.
+					</p>
+				</div>
+				<div class="info_image_2">
+					<img src="images/map.jpg" alt="google maps screen shot of our house">
+				</div>
+			</div>
+			<div class="info_block" id="activities">
+				<div class="info_text_1">
+					<p>
+						There will be arts and crafts indoors, and some water fun outside. A few simple games for toddlers will be available in the back garden. A Press on Tattoo parlor will be open all day!						
+					</p>
+				</div>
+				<div class="info_image_1">
+					<img src="images/game.jpg" alt="a toddler game">
+				</div>
+			</div>
+			<div class="info_block food" id="food">
+				<div class="info_text_2">
+					<p>
+						There will be some snacks for the toddlers in the morning; we’ll try to keep everything as low sugar, low salt, and natural as possible. However, there will be a <span>cake</span> for Madling’s and a <span>Happy Birthday</span> song.
+					</p>
+					<p>
+						In the afternoon, a long procession of party food will appear throughout the afternoon and evening, though there will be no formal meal. Cake, of course, will be available!!
+					</p>
+				</div>
+				<div class="info_image_2 food">
+					<img src="images/food_image.jpg" alt="jelly mellon toddler food">
+				</div>
+			</div>
+			<div class="info_block" id="dress_up">
+				<div class="info_text_1">
+				  <p>
+				  	Dressing up is strongly encouraged! Pirates, Princesses, <span>Little Piggies</span>, Big Scary Dinosurs… The more wonderful characters the better! 
+				  </p>	
+				  <p>
+				  	There’s a <span>special surprise</span> for every adult who dresses up; it’s definitely worth it so break out those silly moustaches and crazy hats!
+				  </p>
+				</div>
+				<div class="info_image_1">
+					<img src="images/dress_up.jpg" alt="peppa pig dresses up">
+				</div>
+			</div>
+			<div class="info_block rsvp">
+				<div id="rsvp">
+				<p>
+					Please let us know you’re coming by sending us an email or a message. Please also let us know if you’ll be joining in the <span>Morning</span> or <span>Afternoon</span> (or both!).
+				</p>
+				<p>
+					<a href="mailto:c.morganriddell@gmail.com?subject=Maddie's%20Bday&body=Hi%20Maddies%20Momma!%20About%20Maddie's%20Birthday...">Mail us here</a>
+				</p>
+				</div>
+			</div>
+		</div> <!--closing tag for practical  information  detail -->
+	</div> <!--closing tag for Main-->
+</body>
+</html>
