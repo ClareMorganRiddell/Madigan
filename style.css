@@ -69,6 +69,8 @@ span {
  	float: left;
  	width:20%;
 	height: 98%;
+	font-size: small;
+    	text-align: justify;
 }
 .practical_info {
 	display:flex;
